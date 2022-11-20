@@ -17,7 +17,7 @@ variable "az_count" {
 
 variable "app_image" {
   description = "Docker image to run in the ECS cluster"
-  default     = "812887550864.dkr.ecr.us-west-2.amazonaws.com/ecr_node_test:latest"
+  default     = "812887550864.dkr.ecr.us-east-2.amazonaws.com/ecr-test:latest"
 }
 
 variable "app_port" {
